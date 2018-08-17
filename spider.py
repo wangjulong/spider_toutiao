@@ -4,7 +4,7 @@ import re
 from multiprocessing.pool import Pool
 
 import requests
-from requests.packages.urllib3.packages.six.moves.urllib.parse import urlencode
+from urllib.parse import urlencode
 from requests.exceptions import RequestException
 from hashlib import md5
 from config import *
